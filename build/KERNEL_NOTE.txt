@@ -1,0 +1,14 @@
+ShahidOS Kernel/Initrd Note
+===========================
+
+This ISO structure requires:
+1. vmlinuz (Linux kernel) - copy from Ubuntu 24.04 ISO: casper/vmlinuz
+2. initrd (initial ramdisk) - copy from Ubuntu 24.04 ISO: casper/initrd
+
+Copy these files to:
+  /workspace/shahidos/build/work/vmlinuz
+  /workspace/shahidos/build/work/initrd
+
+Then copy to ISO:
+  cp /workspace/shahidos/build/work/vmlinuz /workspace/shahidos/build/work/iso/casper/vmlinuz
+  cp /workspace/shahidos/build/work/initrd /workspace/shahidos/build/work/iso/casper/initrd

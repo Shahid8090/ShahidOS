@@ -1,0 +1,12 @@
+# SquashFS Stub
+# This file represents where the actual squashfs would be
+
+ShahidOS 1.0.0 filesystem structure
+Base: Ubuntu 24.04 Noble Numbat
+Desktop: KDE Plasma
+
+In a full build, this file would be replaced by:
+  mksquashfs chroot/ filesystem.squashfs -comp xz
+
+The squashfs contains the entire root filesystem
+with all packages, configurations, and customizations.

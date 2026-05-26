@@ -1,0 +1,9 @@
+Package: shahidos-artwork
+Version: 1.0.0
+Section: gnome
+Priority: optional
+Architecture: all
+Maintainer: ShahidOS Team <info@shahidos.com>
+Description: ShahidOS artwork and branding
+ Provides custom wallpapers, icons, and branding assets
+ for the ShahidOS operating system.

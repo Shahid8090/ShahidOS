@@ -1,0 +1,8 @@
+3fac23fbc2593a7852a8a20e1f904c68  ./casper/filesystem.squashfs
+319d1bdc5e12e468926207cd2d3850b2  ./casper/initrd
+cab8b1e827cc3177a0fb74651a6fb4be  ./casper/filesystem.manifest-desktop
+cab8b1e827cc3177a0fb74651a6fb4be  ./casper/filesystem.manifest
+e84905783f6477841b9baf83989390b4  ./.disk/base_installable
+4ad69858dad461fe8dbafe614114903e  ./.disk/info
+711c221d4c22e88660484778b82f8bee  ./EFI/boot/grub.cfg
+6791a6786cbd0813a32c398b9b410c13  ./boot/grub/grub.cfg

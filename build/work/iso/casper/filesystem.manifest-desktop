@@ -1,0 +1,31 @@
+# ShahidOS 1.0.0 - ShahidOS
+# Base: Ubuntu 24.04 LTS
+# Architecture: amd64
+
+# This file would contain all packages in the ISO
+# Generated during build process
+
+# Core system
+base-files
+base-passwd
+bash
+dpkg
+apt
+systemd
+udev
+
+# KDE Plasma Desktop
+plasma-desktop
+plasma-workspace
+systemsettings
+dolphin
+ark
+
+# Applications
+firefox
+thunderbird
+libreoffice-calc
+
+# System
+network-manager
+lightdm

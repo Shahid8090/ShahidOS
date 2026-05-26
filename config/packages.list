@@ -1,0 +1,61 @@
+# ShahidOS Package List
+# Packages to include in the ISO
+
+# Core Desktop
+plasma-desktop
+systemsettings
+dolphin
+ark
+konsole
+kate
+kfind
+krunner
+
+# Applications
+firefox
+thunderbird
+libreoffice-calc
+libreoffice-writer
+libreoffice-impress
+libreoffice-draw
+libreoffice-math
+
+# System Utilities
+network-manager
+network-manager-gnome
+blueman
+pavucontrol
+plasma-systemmonitor
+ksystemlog
+spectacle
+
+# KDE Integration
+kde-config-gtk-module
+breeze-gtk-theme
+kde-style-breeze
+plasma-integration
+
+# Boot & Display Manager
+lightdm
+lightdm-gtk-greeter
+xorg
+x11-apps
+x11-utils
+
+# Fonts & Theming
+fonts-noto
+fonts-noto-cjk
+ubuntu-artwork
+
+# Hardware Support
+ mesa-vulkan-drivers
+ libva2
+ vainfo
+ pipewire-audio
+ wireplumber
+
+# Documentation
+language-pack-en
+language-pack-kde-en
+manpages
+man-db
