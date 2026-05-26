@@ -377,7 +377,7 @@ create_iso() {
     # Create disk info
     echo "casper" > "$ISO_DIR/.disk/base_installable"
     echo "full_casper" >> "$ISO_DIR/.disk/base_installable"
-    echo "GNU/Linux" > "$ISO_DIR/.disk/distributor_info
+    echo "GNU/Linux" > "$ISO_DIR/.disk/distributor_info"
     echo "ShahidOS 1.0" > "$ISO_DIR/.disk/info"
     
     # Create GRUB config
@@ -391,13 +391,13 @@ menuentry "ShahidOS Live" {
     initrd /casper/initrd
 }
 
-menuentry "ShahidOS (safe graphics)" {
+menuentry "ShahidOS safe graphics" {
     search --no-floppy --fs-uuid --set=root XXXX-XXXX
     linux /casper/vmlinuz boot=casper nomodeset quiet splash --
     initrd /casper/initrd
 }
 
-menuentry "ShahidOS (recovery)" {
+menuentry "ShahidOS recovery" {
     search --no-floppy --fs-uuid --set=root XYYY-YYYY
     linux /casper/vmlinuz boot=casper recovery nomodeset --
     initrd /casper/initrd
